@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'test-unit', '~> 3.0'
   spec.add_runtime_dependency 'fluentd', ['>= 0.14.10', '< 2']
   spec.add_development_dependency 'pry', '~> 0'
-  spec.add_runtime_dependency 'rest-client', '~> 0'
+  spec.add_runtime_dependency 'rest-client', '~> 1.7', '>= 1.7.3'
   spec.add_development_dependency 'rspec', '~> 0'
 
 end
